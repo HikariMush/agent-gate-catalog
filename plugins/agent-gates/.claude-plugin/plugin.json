@@ -1,0 +1,8 @@
+{
+  "name": "agent-gates",
+  "description": "13 skills for design, review, acceptance and delegation gates, plus the institution documents they refer to.",
+  "version": "0.1.0",
+  "author": {
+    "name": "HikariMush"
+  }
+}

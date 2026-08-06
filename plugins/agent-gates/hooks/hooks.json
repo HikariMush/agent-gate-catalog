@@ -1,0 +1,15 @@
+{
+  "_comment": "Skill router: injects a short reminder of the matching skill when the prompt contains trigger vocabulary. Fail-open: returns {} on any error, so a broken hook never blocks a prompt.",
+  "hooks": {
+    "UserPromptSubmit": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "${CLAUDE_PLUGIN_ROOT}/hooks/skill_router.py"
+          }
+        ]
+      }
+    ]
+  }
+}

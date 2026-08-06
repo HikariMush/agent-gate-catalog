@@ -1,0 +1,17 @@
+{
+  "name": "agent-gate-catalog",
+  "owner": {
+    "name": "HikariMush",
+    "url": "https://github.com/HikariMush"
+  },
+  "plugins": [
+    {
+      "name": "agent-gates",
+      "source": "./plugins/agent-gates",
+      "description": "Gates moved from the human to the agent, with the accident that produced each gate and the measurement that shows whether it still fires.",
+      "author": {
+        "name": "HikariMush"
+      }
+    }
+  ]
+}

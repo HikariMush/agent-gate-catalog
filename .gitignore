@@ -1,0 +1,10 @@
+.private/
+*.db
+*.db.bak*
+.env
+.env.*
+credentials*.json
+service_account*.json
+__pycache__/
+*.pyc
+.DS_Store
